@@ -1,0 +1,19 @@
+{
+  "elasticsearch" : {
+    "url": "http://localhost",
+    "port": 9200,
+    "cluster": "telkea",
+    "index": "logsmanager",
+    "types": ["syslogs", "snmplogs"]
+  },
+  "syslogServer": {
+    "address": "0.0.0.0",
+    "port": 10514,
+    "exclusive": true
+  },
+  "jsonServer": {
+    "url" : "http://localhost",
+    "port": 3000,
+    "file": "syslogs"
+  }
+}

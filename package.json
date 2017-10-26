@@ -1,0 +1,21 @@
+{
+  "name": "sys-server",
+  "version": "1.0.0",
+  "description": "Syslog Server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Syslog",
+    "Server"
+  ],
+  "author": "Corentin Dekimpe",
+  "license": "ISC",
+  "dependencies": {
+    "glossy": "^0.1.7",
+    "json-server": "^0.12.0",
+    "request": "^2.83.0",
+    "syslog-server": "^1.0.1"
+  }
+}
